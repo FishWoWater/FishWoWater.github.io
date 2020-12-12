@@ -11,7 +11,7 @@ layouts_gallery:
   - url: /assets/images/mm-layout-archive.png
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
-toc: true
+toc: false
 ---
 
 ## 2020-12
@@ -19,12 +19,17 @@ toc: true
 * human pose
     * [ ] Inference Stage Optimization for Cross-scenario 3D Human Pose Estimation ([Arxiv](https://arxiv.org/abs/2007.02054)))
     * [x] View-Invariant Probabilistic Embedding for Human Pose ([eccv20](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500052.pdf)) ([code](https://github.com/google-research/google-research/tree/master/poem)) (POEM, learn probabilitic embedding of 2D poses via triplet loss(positive pair defined by 3D distance ) may be used in downstream tasks like pose-based image retrieval, video alignment)
-    * [x] Multi-Scale Networks for 3D Human Pose Estimation with Inference Stage Optimization ([Arxiv](https://arxiv.org/abs/2010.06844)) (FSL + SSL,  fully supervised during training and perform inference stage optimization(loop closure + adv like CVPR'19)
+    * [x] Multi-Scale Networks for 3D Human Pose Estimation with Inference Stage Optimization ([Arxiv](https://arxiv.org/abs/2010.06844)) (FSL + SSL,  fully supervised during training and perform inference stage optimization(loop closure + adv like CVPR19)
+    * [x] MeTRAbs Absolute 3D Human Pose Estimator([IEEE Transactions](https://github.com/isarandi/metrabs)) (1st plane in 3DPW Challenge) (inspring work,  predict metric-space 3D heatamps from images(combine with benefits of lfiting methods and CNN methods while avoid their drawbacks, e.g. do not need post-processing from bone length prior,  able to exploit CNN structure), propose alignment layer to use in-the-wild 2D, address truncation problem(CNN encode positions by paddings), allow absolute supervision given calibrated camera,  giving accurate absolute 3D pose estimation. )
 
 * human mesh recovery
     * [x] CAPE: Clothed Auto-Person Encoding ([CVPR20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ma_Learning_to_Dress_3D_People_in_Generative_Clothing_CVPR_2020_paper.pdf)) ([code](https://github.com/QianliM/CAPE)) (add terms in blending shape, which are conditioned on pose, cloth type, and cloth latent representation, learn auto-encoder from displacement )
     * [x] XNect: Real-time Multi-Person 3D Motion Capture with a Single RGB Camera ([SIGGRAPH20](http://gvv.mpi-inf.mpg.de/projects/XNect/content/XNect_SIGGRAPH2020.pdf)) (extension of VNect,  XNect learn 2D heatmaps with 3D local embeddings in the first stage, decode into complete 3D skeletons in the second stage, fitting a skeletal model and output joint angles in the third stage. Contributions: **network arch in the first stage**; **encode 3D hints locally and decode later**. Fast compared with RootNet but the performance is not as good as RootNet)
     * [x] Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose ([ECCV20](https://arxiv.org/pdf/2008.09047.pdf)) ([code](https://github.com/hongsukchoi/Pose2Mesh_RELEASE)) (use graph convolution network to learn mesh deformation from 2D pose. supervised work.)
+    * [x] Monocular 3D pose and shape estimation of multiple people in natural scenes-the importance of multiple scene constraints([CVPR18]) (use collision loss,  fit ground plane using 3D ankle positions as constraints.  Invovle iterative fitting Skeletal model to 3D estimations)
+    * [x] CenterHMR:Multi-Person Center-based Human Mesh Recover([eccv20](https://github.com/Arthur151/CenterHMR)) (bottom up method, predict center maps, using which camera and SMPL params are sampled. 2nd place in 3DPW Challenge)
+    * [x] CRMH: Coherent Reconstruction of Multiple Humans from a Single Image ([CVPR20](https://arxiv.org/pdf/2006.08586.pdf)) (combine faster-rcnn with SMPL, use instance segmentation to provide a depth-order-aware loss & collision loss,  performance is not as good as CenterHMR)
+
 
 *  Human Characters
     * [x] Skeleton-Aware Networks for Deep Motion Retargeting ([SIGGRAPH20](https://arxiv.org/abs/2005.05732)) ([code](https://github.com/DeepMotionEditing/deep-motion-editing)) ([project](https://www.youtube.com/watch?v=ym8Tnmiz5N8))(on **retargeting**, **inspiring work**, disentangle skeleton representation into static component and motion component, allow intra-structure motion transfer and cross-structure motion transfer,  utilize adversarial training)
@@ -70,7 +75,7 @@ Preparing supplementary material for ECCV.
     * [x] VIBE: Video Inference for Human Body Pose and Shape Estimation ([arXiv](https://arxiv.org/pdf/1912.05656v1.pdf))([code](https://github.com/mkocabas/VIBE))
     * [x] Neural 3D Mesh Renderer ([CVPR18](https://arxiv.org/abs/1711.07566))([code](https://github.com/hiroharu-kato/neural_renderer))
     * [x] learning 3d human dynamics from video ([CVPR19](https://arxiv.org/abs/1812.01601))([code](https://akanazawa.github.io/human_dynamics/))
-    * [x] Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image ([ECCV16](https://arxiv.org/abs/1607.08128)) 
+    * [x] Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image ([ECCV16](https://arxiv.org/abs/1607.08128))
 
 ## 2020-1
 Work hard for eccv. Our work on unsupervised human pose estimation.
