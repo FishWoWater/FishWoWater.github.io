@@ -7,6 +7,8 @@ main:
     url: /about/
   - title: "Posts"
     url: /archives/
+  - title: "TimeLine"
+    url: /notes/
     # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
