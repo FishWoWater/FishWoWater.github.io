@@ -62,7 +62,7 @@ ninja.data = [{
           title: 'Two papers accepted by ACMMM22!',
           description: "",
           section: "News",},{id: "news-we-are-awarded-the-national-gold-medal-in-the-8th-china-international-college-students-internet-innovation-and-entrepreneurship-competition-互联网",
-          title: 'We are awarded the national gold medal in The 8th China International College...',
+          title: 'We are awarded the national gold medal in “The 8th China International College...',
           description: "",
           section: "News",},{id: "news-recevied-my-master-degree-joined-tencent",
           title: 'Recevied my master degree, joined Tencent!',
