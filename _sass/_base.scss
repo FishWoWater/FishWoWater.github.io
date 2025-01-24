@@ -198,7 +198,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    // font-family: monospace;
 
     p {
       display: inline-block;
@@ -401,23 +401,23 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
 
     a {
       img {
-        width: 3.2rem;
-        height: 3.2rem;
+        width: 1.4rem;
+        height: 1.4rem;
         margin-bottom: 1rem;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
+        width: 1.4rem;
+        height: 2.8rem;
         margin-bottom: 0.5rem;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 1.4rem;
+          height: 1.4rem;
         }
       }
 
@@ -1342,3 +1342,7 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+.cn-name {
+  font-family: "LXGW WenKai", sans-serif;
+ }

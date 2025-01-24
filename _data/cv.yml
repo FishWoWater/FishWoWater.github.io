@@ -1,97 +1,75 @@
-- title: General Information
+- title: Junjie Wang  
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Junjie Wang
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master
+      institution: Shanghai Jiao Tong University, China
+      year: 2021.9-2024.3
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Compute Science and Technology
+        - 3D human pose estimation and 3D human mesh recovery. 
+        - Advised by Zhenbo Yu.
+        
+    - title: Bachelor
+      institution: Shanghai Jiao Tong University, China
+      year: 2017.9-2021.6
       description:
-        - Description 1.
-        - Description 2.
+        - Electronic Engineering 
+        - Pose estimation and structured illumination microscopy.
+        - Advised by Zhenbo Yu, Xiaoyan Wu.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Algorithm Intern 
+      institution: Deptrum, Shanghai, China
+      year: 2020.7 - 2021.5
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Face Anti-Spoofing, face landmark detection.
+        
+    - title: Machine Learning Engineer 
+      institution: Tencent IEG, Shenzhen, China
+      year: 2024.2 - Now
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Application of machine learning techniques in game development. 
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/FishWoWater/trellis_for_blender">Trellis for Blender</a>
+      year: 2024.12 - Now 
+      description: A blender plugin for SOTA image-to-3d model Trellis.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - <b>National gold medal:</b> The 8th China International College Students’ Internet+ Innovation and Entrepreneurship Competition
+    - year: 2022 
+      items: 
+        - <b>The First Prize:</b> Suzhou Cultivated Talent Scholarship
+
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 3D Generative models.
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - text-to-3d / image-to-3d.
+    - title: Motion Capture.
       items:
-        - Description 1.
-        - Description 2.
+        - human pose estimation / human mesh recovery.
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - metaphysics, reading, photography etc.
