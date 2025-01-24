@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers accepted by ACMMM22!
+Two papers accepted by **ACMMM22**!
