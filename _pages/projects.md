@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Under construction...
+description: It's still under construction. Now I list some of my projects in recent years. 
 nav: true
 nav_order: 3
 display_categories: []

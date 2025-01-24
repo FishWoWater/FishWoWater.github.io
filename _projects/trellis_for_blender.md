@@ -1,12 +1,14 @@
 ---
 layout: page
 title: TreLLIS for Blender
-description: Blender Plugin for TreLLIS
+description: Blender Plugin for TreLLIS (SOTA 3DAIGC model). Currently supports image-to-3d generation and image-conditioned variation in blender.
 img: assets/img/trellis_blender_pic1.png
 importance: 1
 category: 3D Generative Models
 related_publications: false
 ---
+
+Github link: https://github.com/FishWoWater/trellis_blender
 
 A Blender addon that integrates [TRELLIS](https://github.com/microsoft/TRELLIS)'s 3D generation capabilities into blender. [TRELLIS](https://github.com/microsoft/TRELLIS) is SOTA text-to-3d(unreleased) and image-to-3d AIGC model.
 
@@ -16,7 +18,7 @@ A Blender addon that integrates [TRELLIS](https://github.com/microsoft/TRELLIS)'
     </div>
 </div>
 <div class="caption">
-    Select an image, upload to server, processing, download and import.
+    Fig.1 Select an image, upload to server, processing, download and import.
 </div>
 
 ---
@@ -35,7 +37,7 @@ A Blender addon that integrates [TRELLIS](https://github.com/microsoft/TRELLIS)'
     </div>
 </div>
 <div class="caption">
-    Image-to-3D.
+    Fig.2 Image-to-3D.
 </div>
 
 ### Image-Conditioned Detail Variation
@@ -52,7 +54,7 @@ A Blender addon that integrates [TRELLIS](https://github.com/microsoft/TRELLIS)'
     </div>
 </div>
 <div class="caption">
-    Image-Conditioned Detail Variation.
+    Fig.3 Image-Conditioned Detail Variation.
 </div>
 
 ## Installation

@@ -47,6 +47,18 @@
       year: 2024.12 - Now 
       description: A blender plugin for SOTA image-to-3d model Trellis.
 
+    - title: MetaAvatar(MetaSJTU)
+      year: 2022.9 - 2023.6
+      description: 
+        - Making an online version(model) of SJTU, develop game features with unity.
+        - Re-produce the pipeline of `AgileAvatar`, which estimates stylized face parameters from a single RGB image. 
+        - Deploy face blendshape estimation model for expression control, deploy Chat-GLM+TTS+Audio2Face to talk with the agent.
+        - Implement the web-demo via vue and backend api via flask. 
+
+    - title: <a href="https://github.com/FishWoWater/ARCSim-For-SMPL">ARCSim for SMPL</a>
+      year: 2022.6 - 2022.7
+      description: ARCSim virtual try-on simulation engine compatibile with SMPL.
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -61,15 +73,27 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: 3D Generative models.
+    - title: 3D Generative models
       items:
-        - text-to-3d / image-to-3d.
-    - title: Motion Capture.
+        - text-to-3d / image-to-3d
+    - title: Motion Capture
       items:
-        - human pose estimation / human mesh recovery.
+        - human pose estimation / human mesh recovery
 
+- title: Skills 
+  type: nested_list 
+  contents:
+    - title: Programming
+      items: 
+        - Python/C++/Typescript/C#
+    - title: Framework
+      items: 
+        - Pytorch/Flask
+    - title: Softwares
+      items: 
+        - Unity/Unreal/Blender/Linux
 
 - title: Other Interests
   type: list
   contents:
-    - metaphysics, reading, photography etc.
+    - Metaphysics, reading, photography etc.
