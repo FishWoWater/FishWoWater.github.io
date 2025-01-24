@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Under construction...",
+          description: "It&#39;s still under construction. Now I list some of my projects in recent years.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -70,9 +70,19 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-accepted-by-tscvt",
           title: 'One paper accepted by TSCVT!',
           description: "",
-          section: "News",},{id: "projects-trellis-for-blender",
+          section: "News",},{id: "projects-arcsim-for-smpl",
+          title: 'ARCSim-for-SMPL',
+          description: "I made ARCSim(a cloth simulation engine) compatibile with SMPL, supporting SMPL shape / pose interpolation, cloth &amp; SMPL body physics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/arcsim_for_smpl/";
+            },},{id: "projects-metacube",
+          title: 'MetaCube',
+          description: "MetaAvatar/MetaSJTU, an online version of SJTU, powered with a series of algorithms like stylized face parameters / mocap / basic game features.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/metacube/";
+            },},{id: "projects-trellis-for-blender",
           title: 'TreLLIS for Blender',
-          description: "Blender Plugin for TreLLIS",
+          description: "Blender Plugin for TreLLIS (SOTA 3DAIGC model). Currently supports image-to-3d generation and image-conditioned variation in blender.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/trellis_for_blender/";
             },},{
