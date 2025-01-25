@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Recevied my master degree, joined Tencent!
+Graduated, joined **Tencent**!
