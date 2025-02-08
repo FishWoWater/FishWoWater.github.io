@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-blog",
+          title: "Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
@@ -30,33 +37,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-近月学习命理学有感",
       
-        title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: "近月学习命理学有感",
       
-      description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+      description: "写于南京 -&gt; 深圳航班",
       section: "Posts",
       handler: () => {
         
-          window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-        
-      },
-    },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-      
-        title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+          window.location.href = "/blog/2025/destiny-understanding/";
         
       },
     },{id: "news-joined-deptrum-as-an-intern-working-on-face-algorithms",
           title: 'Joined Deptrum as an intern, working on face algorithms!',
           description: "",
-          section: "News",},{id: "news-graduated",
-          title: 'Graduated!',
+          section: "News",},{id: "news-got-my-bachelor-degree",
+          title: 'Got my bachelor degree!',
           description: "",
           section: "News",},{id: "news-two-papers-accepted-by-iccv2021",
           title: 'Two papers accepted by ICCV2021!',
@@ -64,11 +60,11 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-by-acmmm22",
           title: 'Two papers accepted by ACMMM22!',
           description: "",
-          section: "News",},{id: "news-we-are-awarded-the-national-gold-medal-in-the-8th-china-college-students-internet-competition-互联网",
-          title: 'We are awarded the National Gold Medal in “The 8th China College Students’...',
+          section: "News",},{id: "news-awarded-a-national-gold-medal-in-china-college-students-internet-competition",
+          title: 'Awarded a National Gold Medal in “China College Students’ Internet+ Competition”!',
           description: "",
-          section: "News",},{id: "news-graduated-joined-tencent",
-          title: 'Graduated, joined Tencent!',
+          section: "News",},{id: "news-got-my-master-degree-joined-tencent",
+          title: 'Got my master degree, joined Tencent!',
           description: "",
           section: "News",},{id: "news-one-paper-accepted-by-tscvt",
           title: 'One paper accepted by TSCVT!',
