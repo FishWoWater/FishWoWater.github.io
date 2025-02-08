@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated! 
+Got my bachelor degree!
