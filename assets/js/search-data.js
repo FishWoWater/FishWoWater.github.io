@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-近月学习命理学有感",
-      
-        title: "近月学习命理学有感",
-      
-      description: "写于南京 -&gt; 深圳航班",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/destiny-understanding/";
-        
-      },
-    },{id: "news-joined-deptrum-as-an-intern-working-on-face-algorithms",
+        },{id: "news-joined-deptrum-as-an-intern-working-on-face-algorithms",
           title: 'Joined Deptrum as an intern, working on face algorithms!',
           description: "",
           section: "News",},{id: "news-got-my-bachelor-degree",
